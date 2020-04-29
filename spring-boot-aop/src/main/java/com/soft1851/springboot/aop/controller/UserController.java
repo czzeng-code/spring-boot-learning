@@ -3,6 +3,7 @@ package com.soft1851.springboot.aop.controller;
 import com.soft1851.springboot.aop.annotation.AuthToken;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  **/
 @RestController
 @Slf4j
+@RequestMapping(value = "/api/")
 public class UserController {
     /**
      * 无需任何校验。无需加注解

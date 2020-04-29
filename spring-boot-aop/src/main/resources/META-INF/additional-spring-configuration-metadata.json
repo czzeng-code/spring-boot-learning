@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "mybatis.configuration.map-underscore-to-camel-case",
+      "type": "java.lang.String",
+      "description": "Description for mybatis.configuration.map-underscore-to-camel-case."
+    },
+    {
+      "name": "mybatis.type-aliases-package",
+      "type": "java.lang.String",
+      "description": "Description for mybatis.type-aliases-package."
+    }
+  ] }
